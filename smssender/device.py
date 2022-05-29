@@ -92,7 +92,7 @@ class Modem:
         self._device.timeout = self._timeout
         try:
             self._device.open()
-        except serial.ValueError as err:
+        except ValueError as err:
             log_message(
                 "Parameters are out of range\n" + err
             )
@@ -107,7 +107,7 @@ class Modem:
         """
         try:
             self._device.close()
-        except serial.ValueError as err:
+        except ValueError as err:
             log_message("Parameters are out of range\n" + err)
         except serial.SerialException as err:
             log_message(
