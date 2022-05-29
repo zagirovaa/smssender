@@ -1,2 +1,2 @@
-# pylibmodem
-Library for interacting with usb modems
+# smssender
+SMS messages sending application via Usb GSM modem
