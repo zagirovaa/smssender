@@ -5,11 +5,11 @@
 from __future__ import annotations
 from typing import Dict
 
-from pylibmodem.helpers import (
+from smssender.helpers import (
     get_devices,
     log_message
 )
-from pylibmodem.device import Modem
+from smssender.device import Modem
 
 
 def main():

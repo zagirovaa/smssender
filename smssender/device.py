@@ -6,7 +6,7 @@ from __future__ import annotations
 from time import sleep
 import serial
 
-from pylibmodem.helpers import (
+from smssender.helpers import (
     convert_message,
     get_interval,
     is_baudrate,
